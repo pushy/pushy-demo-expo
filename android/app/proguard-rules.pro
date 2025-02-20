@@ -13,7 +13,12 @@
 
 # Add any project specific keep options here:
 
--dontwarn me.pushy.**
--keep class me.pushy.** { *; }
--keep class androidx.core.app.** { *; }
--keep class android.support.v4.app.** { *; }
+# @generated begin expo-build-properties - expo prebuild (DO NOT MODIFY)
+
+# Pushy SDK ProGuard Rules
+-dontwarn me.pushy.**             // Suppress warnings for Pushy classes
+-keep class me.pushy.** { *; }     // Keep all Pushy classes and their members
+-keep class androidx.core.app.** { *; }  // Keep AndroidX core app classes
+-keep class android.support.v4.app.** { *; }  // Keep Android support v4 app classes
+
+# @generated end expo-build-properties
