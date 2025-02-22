@@ -1,4 +1,3 @@
-#import <PushyModule.h>
 #import "AppDelegate.h"
 
 #import <React/RCTBundleURLProvider.h>
@@ -8,9 +7,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  // Initialize Pushy Module
-  [PushyModule didFinishLaunchingWithOptions:launchOptions];
-
   self.moduleName = @"main";
 
   // You can add your custom initial props in the dictionary below.
