@@ -43,7 +43,7 @@ PODS:
     - hermes-engine/Pre-built (= 0.76.6)
   - hermes-engine/Pre-built (0.76.6)
   - Pushy (1.0.59)
-  - PushyRN (1.0.52):
+  - PushyRN (1.0.54):
     - Pushy (= 1.0.59)
     - React (< 1.0.0, >= 0.13.0)
   - RCT-Folly (2024.01.01.00):
@@ -1791,7 +1791,7 @@ SPEC CHECKSUMS:
   glog: 08b301085f15bcbb6ff8632a8ebaf239aae04e6a
   hermes-engine: 1949ca944b195a8bde7cbf6316b9068e19cf53c6
   Pushy: 66d81a307ff884be0b9cf1a9d2c4d64332b4d384
-  PushyRN: c3352074d40f69adddbad6c98bc46e4a77a8fb7a
+  PushyRN: ee8a03bf9d02b0db321e3e3e025f424b8c62ebfd
   RCT-Folly: 84578c8756030547307e4572ab1947de1685c599
   RCTDeprecation: 063fc281b30b7dc944c98fe53a7e266dab1a8706
   RCTRequired: 8eda2a5a745f6081157a4f34baac40b65fe02b31
